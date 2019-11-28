@@ -1,10 +1,10 @@
 ## Maze
 
-1. 개괄
+1. <b>개괄</b>
 
 	다섯개의 미로가 있다. 각 미로에 대해 BFS, DFS, USC, GREEDY, IDS, A*등의 Search 알고리즘 중 어떤 알고리즘이 최적일지를 판단하고 그 이유를 설명하여라.
 
-2. 과정
+2. <b>과정</b>
 
 	(1) <b>1번, 2번 미로 : DFS </b>
 
@@ -26,7 +26,7 @@
 
 * heuristic에 의해 잘못된 길을 들어설 수도 있었지만 (파란색원 부분) 그 정도를 비교했을 때 했을때 heuristic을 쓴 경우가 더 이익일 것 같아 heuristic을 포함한 알고리즘인 greedy와 a*을 써보았는데 실제 결과 모두 greedy가 최소로 나와서 이를 적용했다
 
-3. 최종 탐색 경로
+3. <b>최종 탐색 경로</b>
 
 ![enter image description here](https://i.imgur.com/Q20F12h.png)
 
@@ -34,7 +34,7 @@
 
 ![enter image description here](https://i.imgur.com/Nb7rXgD.png)
 
-4. 결과
+4. <b>결과정리</b>
 
 	Node : 탐색된 노드의 수<br/>
 	Time : 시간
