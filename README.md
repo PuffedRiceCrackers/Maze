@@ -2,11 +2,10 @@
 <br/>
 1. <b>개괄</b>
 <br/>
-	다섯개의 미로가 있다. 각 미로에 대해 BFS, DFS, USC, GREEDY, IDS, A*등의 Search 알고리즘 중 어떤 알고리즘이 최적일지를 판단하고 그 이유를 설명하여라.
-<br/>
-2. <b>과정</b>
-<br/>
-	(1) <b>1번, 2번 미로 : DFS </b>
+	다섯개의 미로가 있다. 각 미로에 대해 BFS, DFS, USC, GREEDY, IDS, A*등의 Search 알고리즘 중 어떤 알고리즘이 최적일지를 판단하고 그 이유를 설명하여라.<br/><br/>
+
+2. <b>과정</b><br/><br/>
+	(1) <b>1번, 2번 미로 : DFS </b><br/><br/>
 
 ※ 1,2번 미로에서 optimal path보다 더 간 부분
 
@@ -16,7 +15,7 @@
 *  maze를 볼 때 dfs 를 쓰기 적절하다고 판단했던 부분은 어떤 block 이 두개의 block을 expand했다 할 때, 틀린길을 간다해도 그 길이 그다지 깊지 않고 금방 막힌다는 점이였다. 즉 dfs 로 잘못된 길을 집입하게되어도 time을 별로 소모하지 않고 다시 바른길로 돌아올 수 있었다. 1번 미로에서는 이 경향이 두드러지지 않았지만 2번 미로에서는 효과를 잘 발휘 했던 것 같다.
 
 <br/>
-	(2) <b>3번, 4번, 5번 미로 :  Greedy Best Search</b>
+	(2) <b>3번, 4번, 5번 미로 :  Greedy Best Search</b><br/>
 	
 ![enter image description here](https://i.imgur.com/k1ZrgBV.png)
 
@@ -26,7 +25,7 @@
 
 * heuristic에 의해 잘못된 길을 들어설 수도 있었지만 (파란색원 부분) 그 정도를 비교했을 때 했을때 heuristic을 쓴 경우가 더 이익일 것 같아 heuristic을 포함한 알고리즘인 greedy와 a*을 써보았는데 실제 결과 모두 greedy가 최소로 나와서 이를 적용했다
 <br/>
-3. <b>최종 탐색 경로</b>
+3. <b>최종 탐색 경로</b><br/><br/>
 
 ![enter image description here](https://i.imgur.com/Q20F12h.png)
 
@@ -34,7 +33,7 @@
 
 ![enter image description here](https://i.imgur.com/Nb7rXgD.png)
 <br/>
-4. <b>결과정리</b>
+4. <b>결과정리</b><br/><br/>
 
 	Node : 탐색된 노드의 수<br/>
 	Time : 시간
